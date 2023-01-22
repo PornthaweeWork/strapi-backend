@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "fullnames",
+  "info": {
+    "singularName": "fullname",
+    "pluralName": "fullnames",
+    "displayName": "fullname"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "lastname": {
+      "type": "string"
+    }
+  }
+}

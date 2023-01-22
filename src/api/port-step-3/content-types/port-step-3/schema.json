@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "port_step_3s",
+  "info": {
+    "singularName": "port-step-3",
+    "pluralName": "port-step-3s",
+    "displayName": "Port-step-3",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "preface": {
+      "type": "richtext"
+    },
+    "iduser": {
+      "type": "biginteger"
+    }
+  }
+}

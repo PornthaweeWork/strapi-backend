@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "port_step_4s",
+  "info": {
+    "singularName": "port-step-4",
+    "pluralName": "port-step-4s",
+    "displayName": "Port-step-4",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "number": {
+      "type": "integer"
+    },
+    "iduser": {
+      "type": "biginteger"
+    }
+  }
+}

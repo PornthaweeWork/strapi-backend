@@ -1,0 +1,87 @@
+{
+  "kind": "collectionType",
+  "collectionName": "port_step_5s",
+  "info": {
+    "singularName": "port-step-5",
+    "pluralName": "port-step-5s",
+    "displayName": "Port-step-5",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "numberPage": {
+      "type": "integer"
+    },
+    "profile": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "fullnameTH": {
+      "type": "text"
+    },
+    "nickname": {
+      "type": "string"
+    },
+    "birthday": {
+      "type": "date"
+    },
+    "ethnicity": {
+      "type": "string"
+    },
+    "nationality": {
+      "type": "string"
+    },
+    "religion": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "address": {
+      "type": "text"
+    },
+    "hobby": {
+      "type": "string"
+    },
+    "aptitude": {
+      "type": "string"
+    },
+    "favoriteSubject": {
+      "type": "string"
+    },
+    "nameFather": {
+      "type": "string"
+    },
+    "workFather": {
+      "type": "string"
+    },
+    "telFather": {
+      "type": "string"
+    },
+    "nameMother": {
+      "type": "string"
+    },
+    "workMother": {
+      "type": "string"
+    },
+    "telMother": {
+      "type": "string"
+    },
+    "tel": {
+      "type": "string"
+    },
+    "iduser": {
+      "type": "biginteger"
+    }
+  }
+}

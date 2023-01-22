@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "port_step_6s",
+  "info": {
+    "singularName": "port-step-6",
+    "pluralName": "port-step-6s",
+    "displayName": "Port-step-6"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "numberPage": {
+      "type": "integer"
+    },
+    "school": {
+      "type": "string"
+    },
+    "educationLevel": {
+      "type": "string"
+    },
+    "year": {
+      "type": "string"
+    },
+    "major": {
+      "type": "string"
+    },
+    "gpa": {
+      "type": "decimal"
+    },
+    "logo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "iduser": {
+      "type": "biginteger"
+    }
+  }
+}

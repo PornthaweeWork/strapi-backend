@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "port_step_8s",
+  "info": {
+    "singularName": "port-step-8",
+    "pluralName": "port-step-8s",
+    "displayName": "Port-step-8"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "numberPage": {
+      "type": "integer"
+    },
+    "cerImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "iduser": {
+      "type": "biginteger"
+    }
+  }
+}

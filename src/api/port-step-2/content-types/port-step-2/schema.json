@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "port_step_2s",
+  "info": {
+    "singularName": "port-step-2",
+    "pluralName": "port-step-2s",
+    "displayName": "port-step-2",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "fullnameTH": {
+      "type": "text"
+    },
+    "fullnameEN": {
+      "type": "text"
+    },
+    "school": {
+      "type": "string"
+    },
+    "profile": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "iduser": {
+      "type": "biginteger"
+    }
+  }
+}
