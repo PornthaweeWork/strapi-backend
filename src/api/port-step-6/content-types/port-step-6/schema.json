@@ -4,7 +4,8 @@
   "info": {
     "singularName": "port-step-6",
     "pluralName": "port-step-6s",
-    "displayName": "Port-step-6"
+    "displayName": "Port-step-6",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -30,16 +31,20 @@
       "type": "decimal"
     },
     "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "iduser": {
+      "type": "biginteger"
+    },
+    "idPort": {
       "type": "biginteger"
     }
   }

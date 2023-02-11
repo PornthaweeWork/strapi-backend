@@ -4,7 +4,8 @@
   "info": {
     "singularName": "port-step-7",
     "pluralName": "port-step-7s",
-    "displayName": "Port-step-7"
+    "displayName": "Port-step-7",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -15,14 +16,15 @@
       "type": "integer"
     },
     "port": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "namePort": {
       "type": "string"
@@ -31,6 +33,9 @@
       "type": "string"
     },
     "iduser": {
+      "type": "biginteger"
+    },
+    "idPort": {
       "type": "biginteger"
     }
   }

@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "port_step_3s",
+  "collectionName": "templates",
   "info": {
-    "singularName": "port-step-3",
-    "pluralName": "port-step-3s",
-    "displayName": "Port-step-3",
+    "singularName": "template",
+    "pluralName": "templates",
+    "displayName": "Template",
     "description": ""
   },
   "options": {
@@ -12,13 +12,10 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "preface": {
-      "type": "richtext"
-    },
-    "iduser": {
+    "template": {
       "type": "biginteger"
     },
-    "idPort": {
+    "iduser": {
       "type": "biginteger"
     }
   }

@@ -4,7 +4,8 @@
   "info": {
     "singularName": "port-step-8",
     "pluralName": "port-step-8s",
-    "displayName": "Port-step-8"
+    "displayName": "Port-step-8",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -15,19 +16,23 @@
       "type": "integer"
     },
     "cerImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "title": {
       "type": "string"
     },
     "iduser": {
+      "type": "biginteger"
+    },
+    "idPort": {
       "type": "biginteger"
     }
   }

@@ -20,6 +20,9 @@
     },
     "iduser": {
       "type": "biginteger"
+    },
+    "idPort": {
+      "type": "biginteger"
     }
   }
 }
